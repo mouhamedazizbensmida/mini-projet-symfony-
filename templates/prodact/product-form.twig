@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{{form_start(formpro)}}
+{{form_widget(formpro)}}
+
+<button type="submit"  class="btn btn-danger">Enregistrer</button>
+
+{{form_end(formpro)}}
+
+{% endblock %}
